@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #282828;
+  color: #b69b67;
+  
+  
+  font-family: 'Source Sans Pro', sans-serif;
+  
+}
+
+
+
+h1, h2, h3, h4, h5, h6, a{
+  text-decoration: none;
+  color: #b69b67;
+}
+
+h1, h2, h3, h4, h5, h6, a:hover{
+  text-decoration: none;
+}
+
+
+button{
+  outline: none; 
+  border: 0;
+  background: transparent;
+}
+a:hover{
+  color: #b69b67;
+
+}
+
+
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h6{
+  color: #b4b4b4;
+}

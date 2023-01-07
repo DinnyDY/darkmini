@@ -1,0 +1,5 @@
+$('.btnmenu').on('click', function(e){
+    e.preventDefault;
+    $(this).toggleClass('btnmenu_active');
+
+})

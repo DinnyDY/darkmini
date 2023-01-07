@@ -1,0 +1,158 @@
+.header{
+   
+    background-image: url('../src/logo.png'); 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    animation-delay: 2s;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-timing-function: ease-in-out;
+
+    
+    
+    
+}
+
+
+header{
+    
+    padding-top:30px;
+    padding-bottom:30px;
+    height: 100vh;
+    
+}
+
+.main-window h1{
+    width: 100%;
+    color: transparent;
+      background-image: radial-gradient(ellipse closest-side, #ffc676 20%,#404040 100% );
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+  }
+
+@keyframes slidein{
+    from{
+        margin-top: 0px;
+    }
+    to{
+        margin-top: 0px;
+    }
+    20%{
+        margin-top:-10px;
+    }
+    50%{
+        margin-top: 0px;
+    }
+    70%{
+        margin-top: -20px;
+    }
+}
+
+
+
+
+
+.next{
+    color: #404040;
+    margin-bottom: auto;
+    
+}
+
+
+
+.logo p{
+    color: #b4b4b4;
+    display: flex;
+    justify-content: end;
+    margin-right: -15%;
+}
+
+
+.btnmenu{
+    display: block;
+    border:1px solid rgb(86, 86, 86);
+    height: 60px;
+    width: 60px;
+    margin-top: 60px;
+    position: relative;
+}
+
+
+
+.btnmenu span,
+.btnmenu span::before,
+.btnmenu span::after
+{
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 2px;
+    background-color:rgb(86, 86, 86); 
+}
+
+
+
+.btnmenu:hover
+{ 
+    border:1px solid #b69b67;
+    transition: 0.01s;
+}
+
+.btnmenu:hover span,
+.btnmenu:hover span::after,
+.btnmenu:hover span::before{
+    background-color:#b69b67; 
+    transition: 0.01s;
+}
+
+
+
+
+
+
+.btnmenu span::before,
+.btnmenu span::after{
+    content: "";
+    display: block;
+    transition: 0.15s;
+
+}
+
+.btnmenu span::before{
+    transform: translateY(-10px);
+}
+.btnmenu span::after{
+   
+    transform: translateY(10px);
+}
+
+
+
+
+
+.btnmenu_active span{
+    height: 0;
+}
+.btnmenu_active span::before{
+    transform: rotate(45deg);
+   
+}
+.btnmenu_active span::after{
+    transform: rotate(-45deg);
+   
+}
+
+
+
+.main-window{
+    margin-top: 18%;
+}
+
+.next-slide{
+margin-top: 10%;
+}
+
