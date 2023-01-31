@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,103 +8,421 @@
     <title>Document</title>
     <link rel="stylesheet" href="./stayle/bootstrap.min.css">
     <link rel="stylesheet" href="./stayle/font.css">
-    
+
     <link rel="stylesheet" href="./stayle/main.css">
     <link rel="stylesheet" href="./stayle/header.css">
     <link rel="stylesheet" href="./stayle/services.css">
+    <link rel="stylesheet" href="./stayle/portfolio.css">
+    <link rel="stylesheet" href="./stayle/contact.css">
+    <link rel="stylesheet" href="./stayle/contacts-block.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
+
+    <header class="container header d-flex flex-column align-items-center">
+
+        <div class="logo">
+            <span class="active-nav"><a href="">UNDERCOVER</a></span>
+            <p>DESIGN TEAM</p>
+        </div>
+
+
+
+        <nav class="container d-flex col-11  flex-column navigator">
+            
+                <a href="#" class="btnmenu" onclick="menu">
+                <span></span>
+                </a>
+            
+        <div class="menuhiden menu-packet">
+            <h1>MENU</h1>
+
+            <div class="row" >
+
+
+                <div class="d-flex flex-column col-2 offset-1">
+                    <span >
+                    <a href="" class="main">MAIN</a>
+                </span>
+                    
+                    <a href="" class="">SERVICES</a>
+                    <a href="" class="">PORTFOLIO</a>
+                    <a href="" class="">BLOG</a>
+                    <a href="" class="">PRICINGS</a>
+                    <a href="" class="">FEEDBACK</a>
+                    <a href="" class="">CONTACTS</a>
+                </div>
+                <div class="d-flex flex-column col-2">
+
+                    <a href="" class="forms">SIGN UP</a>
+                    <a href="" class="forms">SIGN IN</a>
+                    <a href="" class="">SEND MASSAGE</a>
+
+                </div>
+
+
+                <div class=" offset-2 col-5 search">
+                    <span>
+                       
+                        <input type="search" placeholder="SEARCH "> 
+                        <a onclick="search">
+                            <img src="src/search.svg" alt="">   
+                        </a>
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="main-window ">
+                <h2 >our design’s so wanted that we have to hide</h2>
+           </div>
        
 
-<header class="container-fluid">
-    <div class="header container d-flex flex-column align-items-center">
-    <div class="logo">
-        <span class="active-nav"><a href="">UNDERCOVER</a></span>
-             <p>DESIGN TEAM</p> 
+
+    
+        </nav>
+
+        <div class="next-slide d-flex justify-content-center">
+        <button>
+            <p>scroll down for more</p>
+            <img src="./src/chevron-down.svg" alt="">
+        </button>
+
     </div>
 
-
-
-    <div class="container d-flex justify-content-end">
-        <a href="#" class="btnmenu">
-            <span></span>
-        </a>
-    </div>
-
-            <div class="main-window d-flex flex-column ">
-    
-    
-               <div class="d-flex justify-content-center align-items-baseline">
-                    <h1 >our design’s so wanted that we have to hide</h1>
-               </div>
-           
-           
-           
-               <div class="next-slide d-flex justify-content-center">
-                   <button>
-                       <p class="next">scroll down for more</p>
-                      <img src="./src/chevron-down.svg" alt="">
-                  </button>
-                   
-               </div>
-           
-            </div>
-</div>  
-</header>
-
-
-
-<div class="srevices container ">
-
-        <h1>SERVICES</h1> 
-        <div class="row">
-            
-
-
-
-        <div class="serv-menu col-4 d-flex flex-column">
-             
-            
-            <span><a href="" class="active-nav">WEB DESIGN</a></span>
           
-            <span><a href="" class="unactive-nav">LOGO DESIGN</a></span>
-            <span><a href="" class="unactive-nav">BRANDING</a></span>
-            <span><a href="" class="unactive-nav">UI</a></span>
-            <span><a href="" class="unactive-nav">PHOTOGRAPHY</a></span>
-            <span><a href="" class="unactive-nav">GRAPHIC DESIGN</a></span>
+
+
+
+    </header>
+
+
+
+
+
+
+
+    <div class="srevices container ">
+
+        <h1>SERVICES</h1>
+        <div class="row">
+
+
+
+
+            <div class="serv-menu col-4 d-flex flex-column">
+
+
+                <span><a href="" class="unactive-nav active-nav" onclick="ViewPost">WEB DESIGN</a></span>
+
+                <span><a href="" class="unactive-nav" onclick="ViewPost">LOGO DESIGN</a></span>
+                <span><a href="" class="unactive-nav" onclick="ViewPost">BRANDING</a></span>
+                <span><a href="" class="unactive-nav" onclick="ViewPost">UI</a></span>
+                <span><a href="" class="unactive-nav" onclick="ViewPost">PHOTOGRAPHY</a></span>
+                <span><a href="" class="unactive-nav" onclick="ViewPost">GRAPHIC DESIGN</a></span>
+            </div>
+
+
+
+            <div class="col-8">
+                <div class="info-block d-flex justify-content-start ">
+                    <h6>
+                        Web design is our passion. Our team likes to create unique
+                        <br> web pages for our clients. Understanding users is key point
+                        <br> to good interaction with him through web design.
+                        <br> <a href="">See more</a> or <a href="">portfolio</a>
+                    </h6>
+                </div>
+            </div>
         </div>
 
 
 
-<div class="col-8">
-    <div class="info-block d-flex justify-content-start ">
-    <h6>
-        Web design is our passion. Our team likes to create unique
-        <br> web pages for our clients. Understanding users is key point
-        <br> to good interaction with him through web design.
-        <br> <a href="">See more</a> or <a href="">portfolio</a> 
-    </h6>
+    </div>
+
+
+    <div class="portfolio container-fluid ">
+        <h1>PORTFOLIO</h1>
+        <ul class="d-flex justify-content-center align-items-center">
+
+            <a class="button-cat">All categories <img src="./src/chevron-down-wi.svg" alt=""></a>
+            <br>
+            <li>Web Design</li>
+            <li>Logo Design</li>
+            <li>Branding</li>
+            <li>UI</li>
+            <li>Photogrphy</li>
+            <li>Graphic Design</li>
+        </ul>
+
+
+        <div class="container slider">
+            <div class="row  justify-content-center sliderContainer">
+
+
+                <div class="gift-cart">
+                    <div class="card-info">
+
+                        <h3>SUBSENCE<br>MONOCHROME</h3>
+                        <hr>
+
+                        Web design in monochromatic colors for
+                        <br> SUBSENCE agency.
+
+                        <p>web design </p>
+                    </div>
+                </div>
+
+                <div class="gift-cart ">
+                    <div class="card-info">
+                        <hr>
+                        a
+                    </div>
+                </div>
+
+                <div class="gift-cart col-6">
+                    <div class="card-info">
+                        <hr>
+                        a
+                    </div>
+                </div>
+
+                <div class="gift-cart col-6">
+                    <div class="card-info">
+                        <hr>
+                        a
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="row  justify-content-center sliderContainer">
+
+
+                <div class="gift-cart two d-flex">
+                    <div class="card-info">
+
+                        <h3>SUBSENCE<br>MONOCHROME</h3>
+                        <hr>
+
+                        Web design in monochromatic colors for
+                        <br> SUBSENCE agency.
+
+                        <p>web design </p>
+                    </div>
+                </div>
+
+                <div class="gift-cart two">
+                    <div class="card-info">
+                        <hr>
+                        a
+                    </div>
+                </div>
+
+                <div class="gift-cart two col-6">
+                    <div class="card-info">
+                        <hr>
+                        a
+                    </div>
+                </div>
+
+                <div class="gift-cart two col-6">
+                    <div class="card-info">
+                        <hr>
+                        a
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row  justify-content-center sliderContainer">
+
+
+                <div class="gift-cart">
+                    <div class="card-info">
+
+                        <h3>SUBSENCE<br>MONOCHROME</h3>
+                        <hr>
+
+                        Web design in monochromatic colors for
+                        <br> SUBSENCE agency.
+
+                        <p>web design </p>
+                    </div>
+                </div>
+
+                <div class="gift-cart ">
+                    <div class="card-info">
+                        <hr>
+                        a
+                    </div>
+                </div>
+
+                <div class="gift-cart col-6">
+                    <div class="card-info">
+                        <hr>
+                        a
+                    </div>
+                </div>
+
+                <div class="gift-cart col-6">
+                    <div class="card-info">
+                        <hr>
+                        a
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+        <div class="d-flex justify-content-center btn-col">
+            <button class="pages dot" onclick="currentSlide(1)">1</button>
+
+            <button class="position prev" onclick="plusSlides(-1)">prev</button>
+
+            <button class="pages dot " id="dotC" onclick="currentSlide(2)"></button>
+
+            <button class="position next " onclick="plusSlides(1)">next</button>
+
+            <button class="pages dot " id="dotR" onclick="currentSlide(3)"></button>
         </div>
     </div>
-</div>   
-
-
-    
-</div>
 
 
 
 
 
 
+    <div class="container conect">
+        <div class="row">
+            <div class="feedback col col-xl-6">
+                <h1>FEEDBACK</h1>
 
-   
+                <ul>
+                    <li class="feed">
+                        <img src="./src/avatar.png" alt="avatar">
 
-<script src="js/jquery.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/serv.js"></script>
+                        <p>Working with thise guys was an astonishing expirience for me. I was pleased with theyre work.
+                        </p>
+                        <hr>
+                        <h4>SARAH ROBINSON</h4>
+                    </li>
+
+                    <li class="feed">
+                        <img src="./src/avatar.png" alt="avatar">
+
+                        <p>Working with thise guys was an astonishing expirience for me. I was pleased with theyre work.
+                        </p>
+                        <hr>
+                        <h4>SARAH ROBINSON</h4>
+                    </li>
+                    <li class="feed">
+                        <img src="./src/avatar.png" alt="avatar">
+
+                        <p>Working with thise guys was an astonishing expirience for me. I was pleased with theyre work.
+                        </p>
+                        <hr>
+                        <h4>SARAH ROBINSON</h4>
+                    </li>
+                </ul>
+
+                <div class="d-flex justify-content-center">
+                    <p>SCROLE FOR MORE FEEDBACK</p>
+                    <img src="./src/chevron-down-scrole.svg" alt="">
+                </div>
+
+            </div>
+
+
+            <div class="contact col col-xl-4 d-flex flex-column offset-1">
+                <h1>CONTACT US</h1>
+
+                <input type="name" id="name" name="name" placeholder="NAME">
+                <input type="email" name="email" id="email" placeholder="EMAIL">
+                <textarea type="text" name="mess" id="mess" placeholder="YOUR MASSAGE"></textarea>
+                <div><button type="submit">SEND</button></div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="container contacts-block">
+        <h1>CONTACTS</h1>
+        <div class="d-flex justify-content-around contacts-media">
+            <div class="d-flex flex-column justify-content-center col-12 col-xl-3">
+                <span>PHONE</span>
+                <a href="">8-800-500-40-10</a>
+                <a href="">8-800-700-80-20</a>
+            </div>
+
+            <div class="d-flex flex-column justify-content-center col-12 col-xl-3">
+                <span>EMAIL</span>
+                <a href="">undercoverdesign@mail.com</a>
+                <a href="">undercoversupport@mail.com</a>
+            </div>
+            <div class="d-flex flex-column justify-content-center col-12 col-xl-3">
+                <span>ADRESS</span>
+                Javastraat 43,
+                <br>
+                Amsterdam, netherlands
+
+
+            </div>
+        </div>
+        <div class="img-contat d-flex justify-content-center">
+            <img src="src/heand.png" alt="" style="max-height: 40vh; margin-top: 10%;">
+        </div>
+
+    </div>
+
+
+
+
+    <footer class="container d-flex flex-column ">
+        <h2>
+            THIS IS PLACE WHERE SPARKLES OF IDEA TURNS FIRE
+        </h2>
+        <div class="d-flex justify-content-between nav-fotter">
+            <a href="">services</a>
+            <a href="">portfolio</a>
+            <a href="">feedbacks</a>
+            <a href="">contact us</a>
+            <a href="">contacts</a>
+            <a href="">facebook</a>
+            <a href="">linkedin</a>
+            <a href="">twitter</a>
+            <a href="">google+</a>
+            <a href="">sign in</a>
+            <a href="">search</a>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/serv.js"></script>
+    <script src="js/slider.js"></script>
 </body>
+
 </html>

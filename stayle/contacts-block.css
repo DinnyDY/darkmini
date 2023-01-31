@@ -1,0 +1,61 @@
+.contacts-block{ 
+    padding-bottom: 30px;
+    color: #b4b4b4;
+    text-align: center;
+    font-size: 17px;
+}
+
+
+.contacts-block h1{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.contacts-block span{
+    margin: auto;
+    border-top: 1px solid #b69b67;
+    margin-bottom: 20px;
+    color: #b69b67;;
+
+}
+
+
+
+
+footer a{
+    margin: auto;
+    color: #b4b4b4;
+}
+
+
+footer h2{
+    margin: auto;
+    margin-top: 0;
+    font-size: 35px;
+    color: transparent;
+      background-image: radial-gradient(ellipse closest-side, #ffc676 5%,#404040 100% );
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-image: url("../src/fire.png");
+    background-position: center;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-position: absolute;
+    background-position-y: 100%;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .contacts-media{
+        justify-content: center;
+    }
+}

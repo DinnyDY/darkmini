@@ -1,0 +1,108 @@
+.conect{
+    padding-top:30px;
+    height: 100vh;
+   
+    
+}
+
+
+.conect .row{
+    background-image: url("../src/contact.png");
+    background-repeat:no-repeat;
+    background-size: 25%;
+    background-position: bottom right;
+    height: 85%;
+}
+
+
+
+.feedback ul{
+    overflow-y: scroll;
+    height: 60vh;
+    margin-bottom: 0px;
+}
+
+.feedback ul::-webkit-scrollbar {
+    width: 0;
+  }
+
+
+
+
+.feed{
+    margin-bottom: 80px;
+    
+    color: #b4b4b4;
+
+}
+.feed img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-right: 10px;
+}
+
+.feed h4
+{
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: end;
+    align-items:end;
+    color: #b69b67;
+    
+    
+}
+
+
+hr{
+    margin-bottom: 4px;
+}
+
+
+.feedback div{
+    text-align: center;
+    font-size: 10px;
+    color: #b4b4b4;
+    
+}
+
+.contact{
+    height: 100%;
+}
+
+
+.contact input,
+.contact textarea{
+    background: transparent;
+    border:1px solid #b4b4b4;
+    padding: 3px 3px;
+    margin-bottom: 15px;
+    font-display: flex;
+    color:#b4b4b4 ;
+    
+
+}
+
+  
+
+#mess{
+    height: 250px;
+    
+}
+
+
+.contact button{
+    background-color: #b69b67;
+    margin: auto;
+    display: block;
+    font-weight: 100;
+    width: 150px;
+    color:rgb(86, 86, 86);
+    height: 40px;
+}
+
+p{
+    margin-bottom: 0;
+    margin-right: 3px;
+}

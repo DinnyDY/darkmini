@@ -1,0 +1,126 @@
+.portfolio {
+   height: 100vh;
+   padding: 30px;
+   
+}
+
+
+
+
+
+.button-cat {
+   border: 1px solid #b4b4b4;
+   font-size: 18px;
+   color: #b4b4b4;
+   padding: 6px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+
+}
+
+
+
+.gift-cart {
+
+   background-repeat: none;
+   color: rgb(46, 45, 45);
+   background-image: url("../src/card.png");
+   background-size: 100%;
+   margin: 10px;
+   width: 45%;
+   height: 200px;
+   display: flex;
+   justify-content: end;
+   padding: 0%;
+
+}
+
+
+.card-info {
+   background-color: #b69b67;
+   width: 45%;
+   padding: 10px;
+   font-size: 10px;
+   height: 100%;
+}
+
+.card-info hr {
+   left: -40%;
+   height: 2px;
+   background-color: rgb(46, 45, 45);
+   position: relative;
+   margin-bottom: 22%;
+   margin-top: 5px;
+}
+
+.card-info p {
+   display: flex;
+   justify-content: end;
+   align-items: end;
+   margin: 11px;
+
+
+}
+
+.card-info h3 {
+   font-size: 20px;
+   color: rgb(46, 45, 45);
+   font-weight: 500;
+   margin-bottom: 0px;
+
+}
+
+.btn-col {
+   margin-left: 0px;
+}
+
+.position {
+   color: #fff;
+}
+
+
+.pages {
+   color: rgb(90, 88, 88);
+}
+
+
+.portfolio ul {}
+
+.portfolio li {
+   display: none;
+   position: absolute;
+   text-align: center;
+   transition: all 0.5s;
+}
+
+.portfolio li:hover {
+   display: block;
+
+}
+
+
+
+.prev,
+.next {
+   transition: 0.5s;
+}
+
+
+.dot {
+   transition: 0.5s;
+}
+
+
+.active  {
+   color: #b69b67;
+}
+
+
+.two {
+   background-image: url(../src/two.png);
+}
+
+
+.slider {
+   position: relative;
+}

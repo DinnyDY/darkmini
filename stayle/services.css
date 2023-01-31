@@ -1,35 +1,27 @@
 .srevices{
-    background-image: url('../src/mac.png');
-    background-position:center;
-    background-repeat: no-repeat;
-    background-position-x: 450px;
-    background-position-y: 250px;
-    background-size: 55%;
+
     height: 100vh;
-    padding: 80px;
+    padding: 30px;
     
 
 }
 
 .srevices h1{
- color: #b4b4b4;
- text-align: center;
-
- margin-bottom: 40px;
+ 
+ margin-bottom: 30px;
 }
 
 .unactive-nav {
     color: #b4b4b4;
-    display: block;
+    
 }
-.unactive-nav:hover{
-    color: #b4b4b4;
-}
+
 
 
 .active-nav {
     border-top:solid #b69b67 2px;
-    font-size: 40px;
+    font-size: 35px;
+    color: #b69b67;
 }
 
 
@@ -40,4 +32,11 @@
 
 .info-block{
     margin-top: 30px;
+    background-position: absolute;
+    background-image: url('../src/mac.png');
+    background-position: 20% 0%;
+    background-repeat: no-repeat;
+    height: 120%;
+    background-size: 90%;
+
 }
